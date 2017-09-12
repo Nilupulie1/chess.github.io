@@ -1,0 +1,600 @@
+#first{
+    margin-left: 200px;
+    margin-top : 140px;
+    margin-bottom: 20px;
+    background-color: #0f0f0f;
+    height: 760px;
+    width: 640px;
+
+
+}
+.tenth{
+    background-color: black;
+    height: 50px;
+}
+/*
+*/
+#third{
+    background-color:  	#D2691E;
+    height: 80px;
+
+}
+#fourth{
+    background-color:  	#D2691E;
+    height: 80px;
+
+}
+#fifth{
+    background-color:  	#D2691E;
+    height: 80px;
+
+}
+#sixth{
+    background-color:  	#D2691E;
+    height: 80px;
+
+}
+#seventh{
+    background-color:  	#D2691E;
+    height: 80px;
+
+}
+#eighth{
+
+    height: 80px;
+}
+#ninth{
+    background-color:  	#D2691E;
+    height: 80px;
+}
+#A1{
+    height: 80px;
+    width: 80px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #E9E9E9;
+    box-shadow: 10px 10px 5px #9acfea ;
+}
+#B1{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#C1{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+
+}
+
+#D1{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#E1{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+
+}
+#F1{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#G1{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+
+}
+#H1{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#A2{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+
+}
+#B2{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#C2{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+
+}
+#D2{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#E2{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+
+}
+#F2{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#G2{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#H2{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#A3{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#B3{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#C3{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#D3{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#E3{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#F3{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#G3{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#H3{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#A4{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#B4{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#C4{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#D4{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#E4{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+    z-index: 999;
+}
+#F4{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#G4{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#H4{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#A5{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#B5{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#C5{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#D5{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#E5{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#F5{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#G5{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#H5{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#A6{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#B6{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#C6{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#D6{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#E6{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#F6{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#G6{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#H6{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#A7{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#B7{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#C7{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#D7{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#E7{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#F7{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#G7{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#H7{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#A8{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#B8{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#C8{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#D8{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#E8{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#F8{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#G8{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color:  	#7C8EBC;
+}
+#H8{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 80px;
+    width: 80px;
+    background-color: #E9E9E9;
+}
+#leftVertis{
+    position: absolute;
+    margin-left: 150px;
+    height: 760px;
+    width: 50px;
+    background-color:#5cb85c;
+}
+
+#rightVertis{
+    position: absolute;
+    margin-left:840px;
+    height: 760px;
+    width: 50px;
+    background-color:#5cb85c;
+}
+#bottom{
+    position: absolute;
+    margin-top: 630px;
+    margin-left:150px;
+    height: 50px;
+    width: 740px;
+    background-color:#5cb85c;
+}
+#top{
+    position: absolute;
+    margin-top: 0px;
+    margin-left:150px;
+    height: 50px;
+    width: 790px;
+    background-color:#5cb85c;
+}
+#TopHorize{
+    width: 640px;
+    height: 60px;
+    background-color: #5cb85c;
+}
+#ButtomHoriz{
+    width: 640px;
+    height: 60px;
+    background-color:#5cb85c;
+}
+.chessPiece:hover{
+    cursor: pointer;
+    /*-webkit-box-shadow: inset 0px 0px 15px 15px rgba(243, 156, 18, .8);*/
+    box-shadow: inset 0px 0px 15px 15px rgba(243, 156, 18, .8);
+    /*    background-color: white;*/
+    /*movement*/
+    /*transition: box-shadow 0.25s ease-out;*/
+    /*transition: background-color 0.25s ease-in time;*/
+}
+.afterClickPieces{
+    cursor: pointer;
+
+    box-shadow: inset 0px 0px 6px 10px rgba(51, 76, 60, .7);
+    background-color: red;
+}
+.chessPiece{
+    height: 80px;
+    width: 80px;
+    z-index: 999999;
+}
+
+.AllPices{
+    position: absolute;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 60px;
+    width: 60px;
+    top: 10px;
+    left: 10px;
+    z-index: 999999;
+}
+
+.selectPath{
+    -webkit-box-shadow: inset 0px 0px 6px 10px rgba(50, 174, 96, .8);
+    box-shadow: inset 0px 0px 6px 10px rgba(50, 174, 96, .8);
+    /*-webkit-box-shadow: 10px 10px 44px 23px rgba(55,184,35,0.86);*/
+    /*-moz-box-shadow: 10px 10px 44px 23px rgba(55,184,35,0.86);*/
+    /*box-shadow: 10px 10px 44px 23px rgba(55,184,35,0.86);*/
+
+
+}
+/*.pieceHover{*/
+/*cursor: pointer;*/
+/*-webkit-box-shadow: inset 0px 0px 15px 15px rgba(230, 126, 34, .8);*/
+/*box-shadow: inset 0px 0px 15px 15px rgba(230, 126, 34, .8);*/
+/*background-color: white;*/
+/*}*/
+.cutPieceClass{
+    cursor: pointer;
+    -webkit-box-shadow: inset 0px 0px 6px 10px rgba(231, 76, 60, .7);
+    box-shadow: inset 0px 0px 6px 10px rgba(231, 76, 60, .7);
+    background-color:yellow;
+}

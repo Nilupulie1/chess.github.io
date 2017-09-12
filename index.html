@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nilu's Chess Game</title>
+    <link href="css/jquery-ui.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid" id="leftVertis"></div>
+<div class="container-fluid" id="rightVertis"></div>
+
+<div id="first">
+    <div class="container-fluid" id="TopHorize"></div>
+    <div   class="container-fluid" id="second">
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-3" id="A1">
+                        <div class=" container-fluid blackRook chessPiece "  id="blackRookleft">
+                            <img   class="AllPices" src="images\blackRook.png"  >
+                        </div>
+                    </div>
+
+                    <div class="col-xs-3" id="B1">
+                        <div class=" container-fluid blackKnight1 chessPiece ">
+                            <img id="blackKnight1" class="AllPices" src="images\blackKnight.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="C1">
+                        <div class=" container-fluid  blackBishop1 chessPiece ">
+                            <img  id="blackBishop1" class="AllPices" src="images\blackBishop.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="D1">
+                        <div class=" container-fluid blackKing chessPiece ">
+                            <img  id="blackKing"  class="AllPices" src="images\blackKing.png">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-3" id="E1">
+                        <div class=" container-fluid blackQueen chessPiece ">
+                            <img id="blackQueen" class="AllPices" src="images\blackQueen.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="F1">
+                        <div class=" container-fluid blackBishop2 chessPiece ">
+                            <img id="blackBishop2" class="AllPices" src="images\blackBishop.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="G1">
+                        <div class=" container-fluid blackKnight2 chessPiece ">
+                            <img id="blackKnight2"  class="AllPices" src="images\blackKnight.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="H1">
+                        <div class=" container-fluid blackRook chessPiece " id="blackRook2">
+                            <img  class="AllPices" src="images\blackRook.png">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid square" id="third">
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="row">
+                    <div  class="col-xs-3" id="A2">
+                        <div class=" container-fluid blackpone chessPiece " id="blackpone1">
+                            <img  class="AllPices" src="images/blackPawn.png" >
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="B2">
+                        <div class=" container-fluid blackpone chessPiece " id="blackpone2">
+                            <img   class="AllPices"src="images/blackPawn.png">
+                        </div>
+                    </div>
+                    <div class="col-xs-3" id="C2">
+                        <div class=" container-fluid blackpone chessPiece " id="blackpone3">
+                            <img   class="AllPices" src="images/blackPawn.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="D2">
+                        <div class=" container-fluid blackpone chessPiece " id="blackpone4">
+                            <img  class="AllPices"  src="images/blackPawn.png">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-3" id="E2"  >
+                        <div class=" container-fluid blackpone chessPiece " id="blackpone5">
+                            <img  class="AllPices" src="images/blackPawn.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="F2">
+                        <div class=" container-fluid blackpone chessPiece " id="blackpone6">
+                            <img  class="AllPices" src="images/blackPawn.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="G2">
+                        <div class=" container-fluid blackpone chessPiece " id="blackpone7" >
+                            <img class="AllPices"  src="images/blackPawn.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="H2">
+                        <div class=" container-fluid blackpone chessPiece  " id="blackpone8">
+                            <img  class="AllPices" src="images/blackPawn.png">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid" id="fourth">
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-3" id="A3"></div>
+                    <div class="col-xs-3" id="B3"></div>
+                    <div class="col-xs-3" id="C3"></div>
+                    <div class="col-xs-3" id="D3"></div>
+                </div>
+
+            </div>
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-3" id="E3"></div>
+                    <div class="col-xs-3" id="F3"></div>
+                    <div class="col-xs-3" id="G3"></div>
+                    <div class="col-xs-3" id="H3"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="fifth">
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-3" id="A4"></div>
+                    <div class="col-xs-3" id="B4"></div>
+                    <div class="col-xs-3" id="C4"></div>
+                    <div class="col-xs-3" id="D4"></div>
+                </div>
+
+            </div>
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-3" id="E4"></div>
+                    <div class="col-xs-3" id="F4"></div>
+                    <div class="col-xs-3" id="G4"></div>
+                    <div class="col-xs-3" id="H4"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="sixth">
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-3" id="A5"></div>
+                    <div class="col-xs-3" id="B5"></div>
+                    <div class="col-xs-3" id="C5"></div>
+                    <div class="col-xs-3" id="D5"></div>
+                </div>
+
+            </div>
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-3" id="E5"></div>
+                    <div class="col-xs-3" id="F5"></div>
+                    <div class="col-xs-3" id="G5"></div>
+                    <div class="col-xs-3" id="H5"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="seventh">
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-3" id="A6"></div>
+                    <div class="col-xs-3" id="B6"></div>
+                    <div class="col-xs-3"  id="C6"></div>
+                    <div class="col-xs-3 " id="D6"></div>
+                </div>
+
+            </div>
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-3" id="E6"></div>
+                    <div class="col-xs-3" id="F6"></div>
+                    <div class="col-xs-3" id="G6"></div>
+                    <div class="col-xs-3" id="H6"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="eighth">
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-3" id="A7">
+                        <div class=" container-fluid whitePone chessPiece " id="whitePone1">
+                            <img  class="AllPices" src="images\whitePone.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="B7" >
+                        <div class=" container-fluid whitePone chessPiece " id="whitePone2">
+                            <img  class="AllPices" src="images\whitePone.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="C7" >
+                        <div class="container-fluid whitePone chessPiece" id="whitePone3">
+                            <img  class="AllPices" id="78" src="images\whitePone.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="D7" >
+                        <div class=" container-fluid whitePone chessPiece " id="whitePone4">
+                            <img  class="AllPices" src="images\whitePone.png">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-3" id="E7" >
+                        <div class=" container-fluid whitePone chessPiece  " id="whitePone5">
+                            <img  class="AllPices" src="images\whitePone.png" id="999">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="F7" >
+                        <div class=" container-fluid whitePone chessPiece "  id="whitePone6" >
+                            <img class="AllPices" src="images\whitePone.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="G7">
+                        <div class=" container-fluid whitePone chessPiece " id="whitePone7">
+                            <img  class="AllPices" id="Asrc" src="images\whitePone.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="H7">
+                        <div class=" container-fluid whitePone chessPiece " id="whitePone8">
+                            <img  class="AllPices" src="images\whitePone.png">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="ninth">
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-3" id="A8">
+                        <div class=" container-fluid whiteRook1 chessPiece " id="whiteRook1">
+                            <img  class="AllPices" src="images\whiteRook.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="B8">
+                        <div class=" container-fluid whiteKnight1 chessPiece  " id="whiteKnight1">
+                            <img  class="AllPices" src="images\whiteKnight.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="C8">
+                        <div class=" container-fluid whiteBishop1 chessPiece " id="whiteBishop1">
+                            <img  class="AllPices" src="images\whiteBishop.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="D8">
+                        <div class=" container-fluid whiteKing chessPiece " id="whiteKing">
+                            <img  class="AllPices" src="images\whiteKing.ico">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-3" id="E8">
+                        <div class=" container-fluid whiteQueen chessPiece " id="whiteQueen1">
+                            <img  class="AllPices" src="images\whiteQueen.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="F8">
+                        <div class=" container-fluid whiteBishop2 chessPiece " id="whiteBishop2">
+                            <img  class="AllPices" src="images\whiteBishop.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="G8">
+                        <div class=" container-fluid whiteKnight2 chessPiece " id="whiteKnight2">
+                            <img  class="AllPices" src="images\whiteKnight.png">
+                        </div>
+
+                    </div>
+                    <div class="col-xs-3" id="H8">
+                        <div class=" container-fluid whiteRook2 chessPiece " id="whiteRook2">
+                            <img  class="AllPices" src="images\whiteRook.png">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="ButtomHoriz"></div>
+</div>
+
+
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/HomeController.js"></script>
+</body>
+</body>
+</html>
